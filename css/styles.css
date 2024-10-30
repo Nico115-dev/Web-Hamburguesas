@@ -259,16 +259,17 @@ li.nav-link a {
     position: absolute;
     top: 375%;
     color: white;
-    left: 13%;
+    left: 12%;
     font-size: 30px;
     margin: 0%;
+    text-align: center;
 }
 
 .services1 h4{
     position: absolute;
     top: 370%;
     color: orange;
-    left: 43%;
+    left: 45%;
     font-size: 30px;
     margin: 0%;
 }
@@ -277,7 +278,7 @@ li.nav-link a {
     position: absolute;
     top: 370.8%;
     color: orange;
-    left: 68%;
+    left: 72%;
     font-size: 30px;
     margin: 0%;
 }
@@ -289,6 +290,7 @@ li.nav-link a {
     left: 38%;
     font-size: 30px;
     margin: 0%;
+    text-align: center;
 }
 
 .texto3 p{
@@ -298,6 +300,7 @@ li.nav-link a {
     left: 65%;
     font-size: 30px;
     margin: 0%;
+    text-align: center;
 }
 .s1{
     position: absolute;
@@ -315,11 +318,27 @@ li.nav-link a {
 
 .s3{
     position: absolute;
-    top: 340%;
-    left: 65%;
+    top: 341%;
+    left: 70%;
     margin: 0%;
 }
 
+.m1 h1{
+    position: absolute;
+    top: 274% ;
+    left: 12%;
+    color: white;
+    font-size: 40px;
+}
+
+.m1 p{
+    position: absolute;
+    top: 280%;
+    left: 17%;
+    text-align: center;
+    color: orangered;
+    font-size: 25px;
+}
 
 @media screen and (max-width: 800px) {
   nav .bars {
