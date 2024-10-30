@@ -372,6 +372,58 @@ li.nav-link a {
     font-size: 25px;
 }
 
+.border{
+    width: 75%;
+    height: 50%;
+    border: 5px solid black;
+    background-color:burlywood;
+    position: absolute;
+    justify-content: center;
+    padding: 5px;
+    margin: auto; 
+    top: 410%;
+    left: 15%;
+
+}
+
+.border h1{
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    color:black;
+    left: 17%;
+    font-size: 60px;
+    margin: 0%;
+    text-align: center;
+}
+
+
+.boton{
+    display: inline-block;
+    background-color: #ff702a;
+    color: white;
+    padding: 15px 30px; 
+    border-radius: 5px; 
+    text-decoration: none;
+    font-size: 1.2rem; 
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 20px; 
+    position: absolute;
+    top: 60%;
+    margin: 0%;
+    left: 42%;
+}
+
+.boton:hover{
+    background-color: white;
+    color: #ff702a; 
+    border: 2px solid #ff702a;
+}
+
+
+
+
+
 @media screen and (max-width: 800px) {
   nav .bars {
     display: block;
