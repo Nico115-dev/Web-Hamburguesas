@@ -281,6 +281,24 @@ li.nav-link a {
     font-size: 30px;
     margin: 0%;
 }
+
+.texto2 p{
+    position: absolute;
+    top: 375%;
+    color: white;
+    left: 38%;
+    font-size: 30px;
+    margin: 0%;
+}
+
+.texto3 p{
+    position: absolute;
+    top: 375%;
+    color: white;
+    left: 65%;
+    font-size: 30px;
+    margin: 0%;
+}
 .s1{
     position: absolute;
     top: 340%;
