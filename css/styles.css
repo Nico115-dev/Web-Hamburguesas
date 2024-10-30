@@ -229,6 +229,80 @@ li.nav-link a {
     left: 70%;
 }
 
+.services1 h1{
+    position: absolute;
+    top: 315%;
+    color: orangered;
+    left: 45%;
+    font-size: 30px;
+    margin: 0%;
+}
+
+.services1 h2{
+    position: absolute;
+    top: 323%;
+    color: white;
+    left: 25%;
+    font-size: 60px;
+    margin: 0%;
+}
+
+.services1 h3{
+    position: absolute;
+    top: 370%;
+    color: orange;
+    left: 20%;
+    font-size: 30px;
+    margin: 0%;
+}
+.services1 p{
+    position: absolute;
+    top: 375%;
+    color: white;
+    left: 13%;
+    font-size: 30px;
+    margin: 0%;
+}
+
+.services1 h4{
+    position: absolute;
+    top: 370%;
+    color: orange;
+    left: 43%;
+    font-size: 30px;
+    margin: 0%;
+}
+
+.services1 h5{
+    position: absolute;
+    top: 370.8%;
+    color: orange;
+    left: 68%;
+    font-size: 30px;
+    margin: 0%;
+}
+.s1{
+    position: absolute;
+    top: 340%;
+    left: 15%;
+    margin: 0%;
+}
+
+.s2{
+    position: absolute;
+    top: 340%;
+    left: 40%;
+    margin: 0%;
+}
+
+.s3{
+    position: absolute;
+    top: 340%;
+    left: 65%;
+    margin: 0%;
+}
+
+
 @media screen and (max-width: 800px) {
   nav .bars {
     display: block;
