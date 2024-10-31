@@ -1,18 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
 *,
 *::before,
 *::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-  min-height: 100vh;
-  background-color: #1e1d2b;
-  display: block;
+    font-family: 'Playwrite GB S', sans-serif;
+    min-height: 100vh;
+    background-color: #1e1d2b;
+    display: block;
 }
 
 nav {
@@ -30,69 +31,69 @@ nav {
 
 /* responsive */
 nav.active {
-  flex-direction: column;
-  align-items: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 nav h2.logo {
-  font-weight: bold;
-  font-size: xx-large;
-  color: #ff702a;
+    font-weight: bold;
+    font-size: xx-large;
+    color: #ff702a;
 }
 
 
 nav .bars {
-  position: absolute;
-  right: 1rem;
-  font-size: xx-large;
-  display: none;
+    position: absolute;
+    right: 1rem;
+    font-size: xx-large;
+    display: none;
 }
 
 ul.nav-links {
-  display: flex;
+    display: flex;
 }
 
 /* responsive */
 nav.active ul.nav-links {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
 }
 
 li.nav-link {
-  list-style: none;
-  margin: 0.5rem 1rem;
-  padding: 0.4rem;
-  display: flex;
-  align-items: center;
-  transition: background-color 0.6s;
+    list-style: none;
+    margin: 0.5rem 1rem;
+    padding: 0.4rem;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.6s;
 }
 
 li.nav-link:hover {
-  background-color: white;
-  color: #ff702a;
+    background-color: white;
+    color: #ff702a;
 }
 
 li.nav-link.auth {
-  border: 2px solid white;
-  border-radius: 1rem;
+    border: 2px solid white;
+    border-radius: 1rem;
 }
 
 li.nav-link a {
-  text-decoration: none;
-  color: inherit;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: large;
-  text-transform: uppercase;
+    text-decoration: none;
+    color: inherit;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: large;
+    text-transform: uppercase;
 }
 
-.section{
+.section {
     height: 100vh;
     width: 90vw;
 }
 
-.home1{
+.home1 {
     position: absolute;
     top: 50%;
     left: 25%;
@@ -101,16 +102,18 @@ li.nav-link a {
     width: fit-content;
     height: fit-content;
 }
-.titulo{
+
+.titulo {
     color: #ff702a;
     font-size: 7rem;
 }
 
-.text{
+.text {
     color: white;
     font-size: 2rem;
 }
-.link-menu{
+
+.link-menu {
     font-size: 1.5rem;
     background-color: #ff702a;
     display: inline-block;
@@ -123,12 +126,12 @@ li.nav-link a {
     transition: background-color 0.6s;
 }
 
-.link-menu:hover{
+.link-menu:hover {
     color: #ff702a;
     background-color: #ffffff;
 }
 
-.img-home{
+.img-home {
     position: absolute;
     top: 15%;
     right: 10%;
@@ -139,12 +142,12 @@ li.nav-link a {
     display: inline-block;
     background-color: #ff702a;
     color: white;
-    padding: 15px 30px; 
-    border-radius: 5px; 
+    padding: 15px 30px;
+    border-radius: 5px;
     text-decoration: none;
-    font-size: 1.2rem; 
+    font-size: 1.2rem;
     transition: background-color 0.3s, color 0.3s;
-    margin-top: 20px; 
+    margin-top: 20px;
     position: absolute;
     top: 165%;
     margin: 0%;
@@ -153,11 +156,11 @@ li.nav-link a {
 
 .button:hover {
     background-color: white;
-    color: #ff702a; 
+    color: #ff702a;
     border: 2px solid #ff702a;
 }
 
-.about1 h4{
+.about1 h4 {
     top: 130%;
     margin: 0%;
     position: absolute;
@@ -166,7 +169,7 @@ li.nav-link a {
     font-size: 25px;
 }
 
-.about1 h1{
+.about1 h1 {
     top: 135%;
     margin: 0%;
     position: absolute;
@@ -175,7 +178,7 @@ li.nav-link a {
     font-size: 50px;
 }
 
-.about1 h2{
+.about1 h2 {
     top: 150%;
     margin: 0%;
     position: absolute;
@@ -184,13 +187,13 @@ li.nav-link a {
     font-size: 25px;
 }
 
-.about{
+.about {
     position: absolute;
     top: 125%;
     left: 10%;
 }
 
-.menu1 h1{
+.menu1 h1 {
     position: absolute;
     top: 215%;
     color: #ff702a;
@@ -199,37 +202,37 @@ li.nav-link a {
     margin: 0%;
 }
 
-.menu1 h2{
+.menu1 h2 {
     position: absolute;
     top: 223%;
-    margin:0%;
+    margin: 0%;
     left: 32%;
     font-size: 50px;
     color: white;
-}   
+}
 
-.comida1{
+.comida1 {
     position: absolute;
     top: 235%;
     margin: 0%;
     left: 10%;
 }
 
-.comida2{
+.comida2 {
     position: absolute;
     top: 235%;
     margin: 0%;
     left: 40%;
 }
 
-.comida3{
+.comida3 {
     position: absolute;
     top: 232%;
     margin: 0%;
     left: 70%;
 }
 
-.services1 h1{
+.services1 h1 {
     position: absolute;
     top: 315%;
     color: orangered;
@@ -238,7 +241,7 @@ li.nav-link a {
     margin: 0%;
 }
 
-.services1 h2{
+.services1 h2 {
     position: absolute;
     top: 323%;
     color: white;
@@ -247,7 +250,7 @@ li.nav-link a {
     margin: 0%;
 }
 
-.services1 h3{
+.services1 h3 {
     position: absolute;
     top: 370%;
     color: orange;
@@ -255,7 +258,8 @@ li.nav-link a {
     font-size: 30px;
     margin: 0%;
 }
-.services1 p{
+
+.services1 p {
     position: absolute;
     top: 375%;
     color: white;
@@ -265,7 +269,7 @@ li.nav-link a {
     text-align: center;
 }
 
-.services1 h4{
+.services1 h4 {
     position: absolute;
     top: 370%;
     color: orange;
@@ -274,7 +278,7 @@ li.nav-link a {
     margin: 0%;
 }
 
-.services1 h5{
+.services1 h5 {
     position: absolute;
     top: 370.8%;
     color: orange;
@@ -283,7 +287,7 @@ li.nav-link a {
     margin: 0%;
 }
 
-.texto2 p{
+.texto2 p {
     position: absolute;
     top: 375%;
     color: white;
@@ -293,7 +297,7 @@ li.nav-link a {
     text-align: center;
 }
 
-.texto3 p{
+.texto3 p {
     position: absolute;
     top: 375%;
     color: white;
@@ -302,36 +306,37 @@ li.nav-link a {
     margin: 0%;
     text-align: center;
 }
-.s1{
+
+.s1 {
     position: absolute;
     top: 340%;
     left: 15%;
     margin: 0%;
 }
 
-.s2{
+.s2 {
     position: absolute;
     top: 340%;
     left: 40%;
     margin: 0%;
 }
 
-.s3{
+.s3 {
     position: absolute;
     top: 341%;
     left: 70%;
     margin: 0%;
 }
 
-.m1 h1{
+.m1 h1 {
     position: absolute;
-    top: 274% ;
+    top: 274%;
     left: 12%;
     color: white;
     font-size: 40px;
 }
 
-.m1 p{
+.m1 p {
     position: absolute;
     top: 280%;
     left: 17%;
@@ -340,14 +345,15 @@ li.nav-link a {
     font-size: 25px;
 }
 
-.m2 h1{
+.m2 h1 {
     position: absolute;
-    top: 274% ;
+    top: 274%;
     left: 40%;
     color: white;
     font-size: 40px;
 }
-.m2 p{
+
+.m2 p {
     position: absolute;
     top: 280%;
     left: 47%;
@@ -356,14 +362,15 @@ li.nav-link a {
     font-size: 25px;
 }
 
-.m3 h1{
+.m3 h1 {
     position: absolute;
-    top: 274% ;
+    top: 274%;
     left: 70%;
     color: white;
     font-size: 40px;
 }
-.m3 p{
+
+.m3 p {
     position: absolute;
     top: 280%;
     left: 76%;
@@ -372,25 +379,25 @@ li.nav-link a {
     font-size: 25px;
 }
 
-.border{
+.border {
     width: 75%;
     height: 50%;
     border: 5px solid black;
-    background-color:burlywood;
+    background-color: burlywood;
     position: absolute;
     justify-content: center;
     padding: 5px;
-    margin: auto; 
+    margin: auto;
     top: 410%;
     left: 15%;
 
 }
 
-.border h1{
+.border h1 {
     align-items: center;
     position: absolute;
     top: 30%;
-    color:black;
+    color: black;
     left: 17%;
     font-size: 60px;
     margin: 0%;
@@ -398,53 +405,54 @@ li.nav-link a {
 }
 
 
-.boton{
+.boton {
     display: inline-block;
     background-color: #ff702a;
     color: white;
-    padding: 15px 30px; 
-    border-radius: 5px; 
+    padding: 15px 30px;
+    border-radius: 5px;
     text-decoration: none;
-    font-size: 1.2rem; 
+    font-size: 1.2rem;
     transition: background-color 0.3s, color 0.3s;
-    margin-top: 20px; 
+    margin-top: 20px;
     position: absolute;
     top: 60%;
     margin: 0%;
     left: 42%;
 }
 
-.boton:hover{
+.boton:hover {
     background-color: white;
-    color: #ff702a; 
+    color: #ff702a;
     border: 2px solid #ff702a;
 }
 
-.pie{
+.pie {
     align-items: center;
     color: white;
 }
 
-.y1 h1{
+.y1 h1 {
     top: 465%;
-    position: absolute; 
+    position: absolute;
     left: 25%;
 }
-.y1 h4{
+
+.y1 h4 {
     top: 470%;
-    position: absolute; 
+    position: absolute;
     left: 25%;
     align-items: center;
     font-size: 15px;
 }
 
-.y2 h1{
+.y2 h1 {
     top: 465%;
     position: absolute;
     left: 40%;
 }
 
-.y2 h4{
+.y2 h4 {
     top: 470%;
     position: absolute;
     left: 40%;
@@ -452,25 +460,25 @@ li.nav-link a {
     font-size: 15px;
 }
 
-.y3 h1{
+.y3 h1 {
     top: 465%;
     position: absolute;
     left: 55%;
 }
 
-.y3 h4{
+.y3 h4 {
     top: 470%;
     position: absolute;
     left: 55%;
 }
 
-.y4 h1{
+.y4 h1 {
     top: 465%;
     position: absolute;
     left: 70%;
 }
 
-.y4 h2{
+.y4 h2 {
     font-size: 50px;
     color: orangered;
     top: 466%;
@@ -480,11 +488,11 @@ li.nav-link a {
 
 
 @media screen and (max-width: 800px) {
-  nav .bars {
-    display: block;
-  }
+    nav .bars {
+        display: block;
+    }
 
-  nav .nav-links {
-    display: none;
-  }
+    nav .nav-links {
+        display: none;
+    }
 }
