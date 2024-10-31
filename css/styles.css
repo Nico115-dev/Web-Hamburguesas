@@ -149,7 +149,7 @@ li.nav-link a {
     transition: background-color 0.3s, color 0.3s;
     margin-top: 20px;
     position: absolute;
-    top: 165%;
+    top: 169%;
     margin: 0%;
     left: 50%;
 }
@@ -179,7 +179,7 @@ li.nav-link a {
 }
 
 .about1 h2 {
-    top: 150%;
+    top: 154%;
     margin: 0%;
     position: absolute;
     color: white;
