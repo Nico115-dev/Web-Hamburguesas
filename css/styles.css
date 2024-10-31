@@ -420,8 +420,63 @@ li.nav-link a {
     border: 2px solid #ff702a;
 }
 
+.pie{
+    align-items: center;
+    color: white;
+}
 
+.y1 h1{
+    top: 465%;
+    position: absolute; 
+    left: 25%;
+}
+.y1 h4{
+    top: 470%;
+    position: absolute; 
+    left: 25%;
+    align-items: center;
+    font-size: 15px;
+}
 
+.y2 h1{
+    top: 465%;
+    position: absolute;
+    left: 40%;
+}
+
+.y2 h4{
+    top: 470%;
+    position: absolute;
+    left: 40%;
+    align-items: center;
+    font-size: 15px;
+}
+
+.y3 h1{
+    top: 465%;
+    position: absolute;
+    left: 55%;
+}
+
+.y3 h4{
+    top: 470%;
+    position: absolute;
+    left: 55%;
+}
+
+.y4 h1{
+    top: 465%;
+    position: absolute;
+    left: 70%;
+}
+
+.y4 h2{
+    font-size: 50px;
+    color: orangered;
+    top: 466%;
+    position: absolute;
+    left: 70%;
+}
 
 
 @media screen and (max-width: 800px) {
